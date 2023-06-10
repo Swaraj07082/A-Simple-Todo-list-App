@@ -1,0 +1,68 @@
+*{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img{
+ height: 700px;
+width: 1505px;
+}
+
+.container{
+    width: 600px;
+    height: 350px;
+    border: 2px solid #e6653d;
+    position: relative;
+    bottom: 530px;
+    left: 460px;
+    background-color: white;
+    border-radius: 7px;   
+}
+
+.todo{
+    font-size: 30px;
+    font-weight:900px;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+}
+
+
+#input{
+width: 480px;
+height: 30px;
+position: relative;
+left: 21px;
+bottom: 10px;
+background: transparent;
+text-decoration: transparent;
+}
+
+#btn{
+
+    position: relative;
+    height: 35px;
+    width: 55px;
+    left: 20px;
+    bottom: 10px;
+    background-color:#e6653d;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 3px;
+}
+
+ul li{
+padding: 5px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+}
+
+ul li span{
+
+    position: absolute;
+    left: 550px;
+}
+
+ul li span:hover{
+
+    background-color: #e6653d;
+    cursor: pointer;
+}
